@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@media only screen and (max-width: 1159px) {
+
+
+	#home-main-img .item > div {
+		max-height: inherit;
+	}
+
+	#home-main-img .item > div:before {
+		display: none;
+
+	}
+	/*#home-main-img .item.video > div video {*/
+	/*	display: none;*/
+	/*}*/
+
+	#responsive {
+		display: block;
+		max-height: 380px;
+		max-width: 50%;
+
+	}
+
+	#home-main-img .item > div img {
+		height: auto;
+		width: 100%;
+		margin-top: 60px;
+	}
+
+	#home-main-img .item.video .video-copy1 img {
+		width: 80.56%;
+	}
+
+	#home-main-img .slick-next {
+		right: 5px;
+	}
+
+	#home-main-img .slick-prev {
+		left: 5px;
+	}
+
+	#home-main-img .slick-dots {
+		margin: 0 0 0 0;
+		right: 10px;
+	}
+}
+
+@media only screen and (max-width: 1159px) {
+
+	.dspb-w {
+		display: none !important;
+	}
+	
+
+}
+.dspb-w {
+	display: block !important;
+}
+
+
+.dspb-s {
+	display: block !important;
+	margin: auto;
+}
+
+
+#home-main-img {
+	/*overflow: hidden;*/
+	/*padding: 100px 0;*/
+	width: 100%;
+	z-index: 0;
+	max-height: 500px !important;
+}
+#home-main-img .item {
+	display: block !important;
+	font-size: 0;
+	line-height: 0;
+	vertical-align: bottom;
+	width: 100%;
+	position: absolute;
+}
+#home-main-img .item > div {
+	background: no-repeat center center;
+	background-size: cover;
+	/*height: 500px;*/
+	overflow: hidden;
+	
+	width: 100%;
+}
+/* #home-main-img .item > div:before {*/
+/*	content: "";*/
+/*	display: block;*/
+/*	padding-bottom: 31.25%;*/
+/*	width: 100%;*/
+/*}*/
+/* #home-main-img .item.video > div video {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+} */
+#home-main-img .item.video .video-copy1 {
+	left: 0;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+}
+#home-main-img .item.video .video-copy1 img {
+	margin: auto;
+}
+#home-main-img .slick-arrow {
+	border: 0;
+	background-color: transparent;
+	display: block;
+	height: 43px;
+	margin-top: -21px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 65%;
+	width: 43px;
+	z-index: 1;
+
+}
+
+#home-main-img .slick-next {
+	right: 15px;
+}
+#home-main-img .slick-prev {
+	left: 15px;
+}
+#home-main-img .slick-arrow:before {
+	background: url(../img/c-arrow1.png) no-repeat center center;
+	background-size: contain;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+
+}
+#home-main-img .slick-prev:before {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+#home-main-img .slick-dots {
+	bottom: 10px;
+	font-size: 0;
+	line-height: 0;
+	list-style: none;
+	margin: 0 -580px 0 0;
+	max-width: 1160px;
+	padding: 20px 0;
+	position: absolute;
+	right: 50%;
+	text-align: right;
+}
+#home-main-img .slick-dots li {
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+#home-main-img .slick-dots button {
+	background: #FFF;
+	border: 1px solid #0055ba;
+	border-radius: 50%;
+	display: block;
+	height: 9px;
+	margin: 0 0 0 7px;
+	overflow: hidden;
+	padding: 0;
+	text-indent: -999em;
+	width: 9px;
+
+}
+#home-main-img .slick-dots .slick-active button {
+	background: #0055ba;
+}
+#home-main-img {
+	margin: 40px 0 0 0 !important;
+
+}
+#responsive {
+	display: block;
+	max-height: 380px;
+	max-width: 50%;
+	position: absolute;
+	top : 0%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/*reponsive display: 1600*/
+@media only screen and (max-width: 1600px) {
+
+
+	#home-main-img .item > div {
+		max-height: inherit;
+	}
+
+	#home-main-img .item > div:before {
+		display: none;
+
+	}
+	/*#home-main-img .item.video > div video {*/
+	/*	display: none;*/
+	/*}*/
+
+	
+	#home-main-img .item > div img {
+		height: auto;
+		width: 100%;
+		margin-top: 60px;
+	}
+
+	#home-main-img .item.video .video-copy1 img {
+		width: 80.56%;
+	}
+
+	#home-main-img .slick-next {
+		right: 5px;
+	}
+
+	#home-main-img .slick-prev {
+		left: 5px;
+	}
+
+	#home-main-img .slick-dots {
+		margin: 0 0 0 0;
+		right: 10px;
+	}
+}
+
+
